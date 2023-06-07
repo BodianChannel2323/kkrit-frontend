@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-Search-Button {
+  background-color: #3f7bb1;
+  width: 415px;
+  height: 50px;
+  color: white;
+  margin: 10px;
+}
+
+.App-Build-Route-Button {
+  background-color: #3f7bb1;
+  width: 415px;
+  height: 50px;
+  color: white;
+  margin: 10px;
+}
+
+.App-Clear-Button {
+  background-color: #3f7bb1;
+  width: 415px;
+  height: 50px;
+  color: white;
+  margin: 10px;
+}
+
+.App-header {
+  background-color: #225a89;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Search2-Input {
+  width: 415px;
+  height: 30px;
+}
+.App-Point-A-Input {
+  width: 415px;
+  height: 30px;
+}
+
+.App-Point-B-Input {
+  width: 415px;
+  height: 30px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-Floor-Button {
+  background-color: azure;
+  border: none;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.App-Floor-Button:hover {
+  background-color: #d7e5fc;
+}
+
+.App-Floor-Button_active {
+  background-color: #84d6ff;
+}
